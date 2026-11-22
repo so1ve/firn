@@ -27,7 +27,7 @@ tokio = { version = "1", features = ["fs", "io-util", "macros", "net", "process"
 toml = "0.8"
 tracing = { version = "0.1", default-features = false, features = ["std"] }
 tracing-subscriber = { version = "0.3", default-features = false, features = ["env-filter", "fmt"] }
-zstd = "0.13"
+zstd = "0.14"
 
 [dev-dependencies]
 rsa = { version = "0.9", features = ["pem"] }
